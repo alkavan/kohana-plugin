@@ -12,7 +12,7 @@ now you controller template should extand it like this:
 
 ***
 
-
+# Usage
 here some basic stuff you can do:
 
 	Event::subscribe('EventBeforeHeader', function ($event) {
