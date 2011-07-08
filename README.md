@@ -1,11 +1,12 @@
 # Instructions
-first, download prggmr: https://github.com/prggmrlabs/prggmr, put into application/vendor
+my fork of prggmr lib included with fix for kohana3!
+
 add to your bootstrap:
 
 	require_once Kohana::find_file('vendor', 'prggmr/lib/prggmr');
 
 
-now you controller template should extand it like this:
+Controller_Template should extand it like this:
 
 	abstract class Controller_Template_Site extends Controller_Template_Plugin {}
 
@@ -40,3 +41,7 @@ then on templates/views:
 	echo 'header stuff';
 	<?php Event::fire('EventAfterHeader'); ?>
 
+## prggmr
+direct access to prggmr instance is like this:
+
+	\prggmr\Engine::instance()->method()
