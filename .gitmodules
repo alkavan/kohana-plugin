@@ -1,0 +1,3 @@
+[submodule "vendor/prggmr"]
+	path = vendor/prggmr
+	url = git://github.com/alkavan/prggmr.git
