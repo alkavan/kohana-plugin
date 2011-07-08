@@ -9,9 +9,6 @@ now you controller template should extand it like this:
 
 	abstract class Controller_Template_Site extends Controller_Template_Plugin {}
 
-
-***
-
 # Usage
 here some basic stuff you can do:
 
